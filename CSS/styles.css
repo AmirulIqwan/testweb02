@@ -1,7 +1,6 @@
 body{
     font-family: 'Tilt Warp', cursive;
     text-align: center;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -172,26 +171,28 @@ p{
 
 /* Animation Section */
 
-.marquee-home {
+.marquee-home{
     width: 80%;
     background-color: white;
     text-transform: uppercase;
     white-space: nowrap;
     margin-top: 20px;
-  }
-  
-  .marquee-home div {
-    font-size: 1.6rem;
-    font-family: 'Tilt Warp';
-    animation: animate-home 20s linear infinite;
-    display: inline-block;
-  }
-  
-  @keyframes animate-home {
-    100% {
-      transform: translate(-100%, 0);
     }
-  }
+
+    .marquee-home div{
+        font-size: 1.6rem;
+        font-family: 'Tilt Warp';
+        animation: animate-home 20s linear infinite;
+        padding-left: 130%;
+        display: inline-block;
+    }
+
+    @keyframes animate-home{
+        100%{
+        transform: translate(-100%, 0);
+        }
+    }
+
 
 /* Footer section */
 
@@ -224,7 +225,7 @@ p{
     }
 
     .big-heading{
-        font-size: 18px;
+        font-size: 17px;
         margin: 10px;
     }
 
@@ -235,12 +236,17 @@ p{
         padding: 0;
     }
 
+    /* .marquee-home div {
+        font-size: 1.2rem;
+        animation-duration: 15s;
+    } */
+
     .marquee-home div {
         display: none;
     }
 
     .colored-section{
-        margin-top: -20px;
+        margin-top: -30px;
     }
     
 }
@@ -249,6 +255,10 @@ p{
     .black-section {
       text-align: left;
       font-size: 10px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      height: auto;
+      position: relative;
     }
 
     .footer-link{
@@ -258,20 +268,30 @@ p{
         padding: 0;
     }
 
+    .big-heading{
+        font-size: 16px;
+        margin: 10px;
+    }
+
     .section-link{
         display: block;
         padding: 0;
     }
 
-    .marquee-home div{
+    /* .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    } */
+
+    .marquee-home div {
         display: none;
     }
 
     .colored-section{
-        margin-top: -10px;
+        margin-top: -30px;
     }
   }
-
 
 
     
