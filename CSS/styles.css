@@ -1,0 +1,281 @@
+body{
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+}
+
+a:hover{
+    color: #b0b0b0;
+}
+
+p{
+    color: #fff;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+    
+}    
+
+/* Sections */
+
+.colored-section{
+    background-color: #fafafa;
+    color: black;
+    margin-top: -50px;
+}
+
+.black-section{
+    background-color: black;
+    padding: 3% 7%;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2.65rem;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding-bottom: 5%;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-link{
+    color: black;
+    font-family: 'Tilt Warp';
+    font-size: 25px;
+    text-decoration: none;
+    margin: 50px auto 0 auto;
+    padding: 0 80px;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Tilt Warp';
+}
+
+/* Download Buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15%;
+}
+
+
+/* Title Image */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    background-color: #fafafa;
+  }
+  
+  .title-image {
+    width: 60%;
+  }
+
+/* Features Section */
+
+#features{
+     position: relative;
+     z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Animation Section */
+
+.marquee-home{
+    width: 80%;
+    background-color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    }
+
+    .marquee-home div{
+        font-size: 1.6rem;
+        font-family: 'Tilt Warp';
+        animation: animate-home 20s linear infinite;
+        padding-left: 130%;
+        display: inline-block;
+    }
+
+    @keyframes animate-home{
+        100%{
+        transform: translate(-100%, 0);
+        }
+    }
+
+/* Footer section */
+
+.footer-link{
+    font-family: 'Tilt Warp';
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 80px;
+}
+
+.footer-copyright {
+    padding-top: 10px;
+  }
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .popeye-picture{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .big-heading{
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .section-link{
+        font-size: 17px;
+        margin: 10px;
+        display: block;
+        padding: 0;
+    }
+
+    .marquee-home div {
+        font-size: 1.2rem;
+        animation-duration: 15s;
+    }
+
+    .colored-section{
+        margin-top: -20px;
+    }
+    
+}
+
+@media screen and (max-width: 845px) {
+    .black-section {
+      text-align: left;
+      font-size: 10px;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        text-align: left;
+        display: block;
+        padding: 0;
+    }
+
+    .section-link{
+        display: block;
+        padding: 0;
+    }
+
+    .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    }
+
+    .colored-section{
+        margin-top: -10px;
+    }
+  }
+
+
+
+    
