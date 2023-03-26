@@ -184,7 +184,6 @@ p{
     font-size: 1.6rem;
     font-family: 'Tilt Warp';
     animation: animate-home 20s linear infinite;
-    padding-left: 100%;
     display: inline-block;
   }
   
