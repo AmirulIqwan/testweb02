@@ -236,8 +236,7 @@ p{
     }
 
     .marquee-home div {
-        animation: none;
-        padding-left: 0;
+        display: none;
     }
 
     .colored-section{
@@ -265,8 +264,7 @@ p{
     }
 
     .marquee-home div{
-        animation: none;
-        padding-left: 0;
+        display: none;
     }
 
     .colored-section{
