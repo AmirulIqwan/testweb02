@@ -238,6 +238,7 @@ p{
     .marquee-home div {
         font-size: 1.2rem;
         animation-duration: 15s;
+        padding-left: 0;
     }
 
     .colored-section{
@@ -267,7 +268,7 @@ p{
     .marquee-home div{
         font-size: 1rem;
         animation-duration: 20s;
-        padding-left: 150%;
+        padding-left: 0;
     }
 
     .colored-section{
