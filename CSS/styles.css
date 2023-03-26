@@ -172,27 +172,27 @@ p{
 
 /* Animation Section */
 
-.marquee-home{
+.marquee-home {
     width: 80%;
     background-color: white;
     text-transform: uppercase;
     white-space: nowrap;
     margin-top: 20px;
+  }
+  
+  .marquee-home div {
+    font-size: 1.6rem;
+    font-family: 'Tilt Warp';
+    animation: animate-home 20s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+  }
+  
+  @keyframes animate-home {
+    100% {
+      transform: translate(-100%, 0);
     }
-
-    .marquee-home div{
-        font-size: 1.6rem;
-        font-family: 'Tilt Warp';
-        animation: animate-home 20s linear infinite;
-        padding-left: 130%;
-        display: inline-block;
-    }
-
-    @keyframes animate-home{
-        100%{
-        transform: translate(-100%, 0);
-        }
-    }
+  }
 
 /* Footer section */
 
